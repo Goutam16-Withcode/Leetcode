@@ -1,0 +1,1 @@
+<h2>average-salary-excluding-the-minimum-and-maximum-salary Notes</h2><hr>[ Time taken: 22 m 25 s ]
