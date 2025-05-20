@@ -9,8 +9,7 @@ public:
        return  dp[i]= max(v[i]+maxProfit(v,i+2,dp),maxProfit(v,i+1,dp));
 }
     int rob(vector<int>& v) {
-         vector<int>dp;
-        dp.resize(105,-1);
+         vector<int>dp(v.size()+1,-1);
         
         return maxProfit(v,0,dp);
     }
